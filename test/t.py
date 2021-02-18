@@ -29,15 +29,3 @@
 # button.pack()
 # canvas.pack(expand=True, fill='both')
 # root.mainloop()
-
-import random
-colors = ['blue', 'red', 'green', 'banana']
-
-# WAY 1
-secret_color = random.randrange(0, len(colors))
-print("Colors is:", colors[secret_color])
-# WAY 2
-print("Color is: ", random.choice(colors))
-# WAY 3
-shuffle_color = random.shuffle(colors)
-print(colors[0])

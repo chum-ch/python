@@ -41,7 +41,6 @@ def moveLeft(event):
     print(grid)
 def arrayToDrawing():
     global grid
-    l = 0
     for index in range (len(grid)):
         x1=SIZE * index + MARGIN
         y1=SIZE
@@ -50,7 +49,6 @@ def arrayToDrawing():
 
 # draw a line with white and black squares using the global array
         if grid[index] == 0:
-            l = index
             color="white"
         else:
             color="black"
