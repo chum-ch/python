@@ -1,8 +1,8 @@
-import tkinter as tk
-windows = tk.Tk()
-frame = tk.Frame()
-frame.master.title("Test")
-windows.geometry("300x300")
+# import tkinter as tk
+# windows = tk.Tk()
+# frame = tk.Frame()
+# frame.master.title("Test")
+# windows.geometry("300x300")
 
 # label = tk.Button(
 #     text="Click me!",
@@ -37,11 +37,17 @@ windows.geometry("300x300")
 
 #========================================================================================
 #========================================================================================
-def handle_click(event):
-    print("The button was clicked!")
+# def handle_click(event):
+#     print("The button was clicked!")
 
-button = tk.Button(text="Click me!")
-button.pack()
-button.bind("<Button-1>", handle_click)
+# button = tk.Button(text="Click me!")
+# button.pack()
+# button.bind("<Button-1>", handle_click)
 
-windows.mainloop()
+# windows.mainloop()
+
+x1, y1, x2, y2 = 1,2,3,4
+print(x1)
+print(y1)
+print(x2)
+print(y2)
